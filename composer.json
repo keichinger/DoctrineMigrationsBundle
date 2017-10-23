@@ -23,6 +23,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:keichinger/DoctrineMigrationsBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:keichinger/migrations.git"
         }
     ],
     "minimum-stability": "beta",
@@ -30,10 +34,7 @@
         "php": "^7.1",
         "symfony/framework-bundle": "^4.0.0-BETA1",
         "doctrine/doctrine-bundle": "^1.7.1",
-        "doctrine/migrations": "^1.5"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.8"
+        "doctrine/migrations": "dev-symfony-4.0#b7188b697f9da2462bf842e5b298c6d37dfba48a"
     },
     "autoload": {
         "psr-4": { "Doctrine\\Bundle\\MigrationsBundle\\": "" }
