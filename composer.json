@@ -19,12 +19,18 @@
             "homepage": "http://symfony.com/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:keichinger/DoctrineMigrationsBundle.git"
+        }
+    ],
     "minimum-stability": "beta",
     "require": {
         "php": "^7.1",
         "symfony/framework-bundle": "^4.0.0-BETA1",
         "doctrine/doctrine-bundle": "^1.7.1",
-        "doctrine/migrations": "^1.1"
+        "doctrine/migrations": "^1.5"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.8"
